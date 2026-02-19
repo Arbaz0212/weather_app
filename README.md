@@ -1,35 +1,34 @@
 🌦️ Weather Dashboard App
 
 A modern and responsive Weather Dashboard built using React + Vite.
-This application fetches real-time weather data from the OpenWeather API and displays it in a clean blue-themed UI.
+This project focuses on creating a structured and visually appealing weather dashboard interface with multiple weather sections.
+
+📌 Overview
+
+The Weather Dashboard is designed to simulate a professional weather application layout.
+It includes a search bar and dedicated sections for different types of weather information, all presented in a clean blue-themed user interface.
+
+This project demonstrates frontend development skills using React components, layout structuring, and responsive styling.
 
 🚀 Features
 
-🔍 Search weather by city name
+🔍 City Search Bar (UI-based)
 
-🌡️ Live Weather Information
-
-Temperature
-
-Humidity
-
-Wind Speed
-
-Weather Condition
-
-📊 Dashboard Sections:
+📊 Three Dashboard Sections:
 
 Live Weather
 
-Historic Weather (UI Section)
+Historic Weather
 
-Marine Weather (UI Section)
+Marine Weather
 
-🎨 Full Blue Gradient Design
+🎨 Full Blue Gradient Theme
 
-📱 Responsive Layout
+📱 Fully Responsive Design
 
-⚡ Fast Performance (Vite)
+⚡ Fast Development Setup using Vite
+
+🧩 Component-Based Architecture
 
 🛠️ Tech Stack
 
@@ -41,10 +40,8 @@ JavaScript (ES6+)
 
 CSS3
 
-OpenWeather API
-
 📂 Project Structure
-weather-app/
+weather-dashboard/
 │
 ├── public/
 │
@@ -59,58 +56,51 @@ weather-app/
 │   └── App.css
 │
 ├── package.json
+├── package-lock.json
 └── README.md
 
-🔑 Getting Started
+⚙️ Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/weather-dashboard.git
 
-2️⃣ Install Dependencies
+2️⃣ Navigate to Project Folder
+cd weather-dashboard
+
+3️⃣ Install Dependencies
 npm install
 
-3️⃣ Add Your OpenWeather API Key
-
-Open:
-
-src/App.jsx
-
-
-Replace:
-
-const API_KEY = "YOUR_OPENWEATHER_API_KEY";
-
-
-With your actual API key from:
-https://openweathermap.org/api
-
-4️⃣ Run the Application
+4️⃣ Start Development Server
 npm run dev
 
-
-Open in browser:
-
+5️⃣ Open in Browser
 http://localhost:5173
 
-🌐 API Used
+🎯 Project Purpose
 
-OpenWeather Current Weather API
+This project was built to:
 
-OpenWeather Historical API (Optional)
+Practice React component structure
 
-OpenWeather Marine API (Optional)
+Design a clean dashboard layout
 
-📌 Future Enhancements
+Implement responsive UI
 
-7-Day Forecast
+Understand Vite project setup
 
-Weather Icons & Animations
+Improve frontend development skills
 
-Dark Mode Toggle
+📌 Future Improvements
 
-Geolocation Detection
+Integrate real-time weather API
 
-Deployment (Vercel / Netlify)
+Add 7-day weather forecast
+
+Add weather icons and animations
+
+Implement dark/light mode
+
+Deploy the project (Vercel / Netlify)
 
 👨‍💻 Author
 
-Developed by Arbaz
+Arbaz
